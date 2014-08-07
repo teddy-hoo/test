@@ -1,0 +1,156 @@
+/* newhire.css */
+
+body {
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 15em;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+}
+
+input {
+}
+
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* themes */
+
+.off-white {
+  background: #fefefe;
+}
+
+.blue {
+  color: #0068ad;
+}
+
+.light-gray {
+  border: 1px solid #fafafa;
+  background: #fafafa;
+  color: #222222;
+}
+
+.fade {
+  opacity: .6;
+}
+
+.light-blue {
+  background: #e5f3ff;
+}
+
+.light-green {
+  background: #e5fff0;
+}
+
+.gray-blue {
+  background: #cce7ff;
+}
+
+.dark {
+  background: #005994;
+  color: #ffffff;
+  opacity: .8;
+}
+
+.dark-gray {
+  background: #333333;
+  color: #ffffff;
+}
+
+.gray {
+  color: #666666;
+}
+
+/* custom */
+
+.select {
+  background: #005994;
+  opacity: .8;
+  border-radius: 5px;
+}
+
+.date {
+  font-size: .8em;
+}
+
+.navi {
+  margin-top: 5px;
+}
+
+.comments {
+  border-radius: 5px;
+}
+
+.comment {
+  border: none;
+  font-size: 14px;
+  padding: 2px;
+}
+
+.summary {
+  font-size: 18px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* bootstrap overrides */
+
+.navbar {
+  background: #ffffff;
+  //opacity: .8;
+  color: #ffffff;
+}
+
+.nav li .active {
+  // not working
+  background: #005994;
+  color: #ffffff;
+}
+
+.media {
+  //background: #444444;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.media-body {
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+.media-heading {
+}
+
+.media .comment {
+//  background: #333333;
+  //background: #ffffff;
+  padding: 2px;
+  margin: 2px;
+}
+
+.comment .media-body {
+  margin-bottom: 0px;
+}
+
+.form-control {
+}
+
+.container {
+  margin-top: 50px;
+}
+
