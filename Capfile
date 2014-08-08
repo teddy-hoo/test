@@ -4,7 +4,7 @@ require 'capistrano/setup'
 # Includes default deployment tasks
 require 'capistrano/deploy'
 
-require 'capistrano/rbenv'
+#require 'capistrano/rbenv'
 require 'capistrano/bundler'
 
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.

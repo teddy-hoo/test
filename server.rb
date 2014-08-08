@@ -1,5 +1,6 @@
 require 'sinatra'
-
-get '/' do
-	"hello word"
+class Server < Sinatra::Base
+  get '/' do
+    "hello word"
+  end
 end

@@ -4,3 +4,4 @@ gem "capistrano"
 gem "capistrano-rbenv"
 gem "capistrano-bundler"
 gem "mongo"
+gem 'unicorn'
