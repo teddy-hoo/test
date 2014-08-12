@@ -1,4 +1,8 @@
 language: ruby
+rvm:
+- 1.9.3-p547
+
+before_script: cd test && bundle install
 
 after_script: git clone https://github.com/vstephenhu/capistrano-recipes.git
 after_script: cd capistrano-recipes && cap deploy
