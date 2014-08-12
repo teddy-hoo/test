@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 1.9.3-p547
-
+bundler_args: ""
 before_script: cd test && bundle install
 
 after_script: git clone https://github.com/vstephenhu/capistrano-recipes.git
