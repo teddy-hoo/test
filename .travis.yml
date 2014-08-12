@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+	- 1.9.3-p547
+	bundle install
+script: git clone https://github.com/vstephenhu/capistrano-recipes.git
+script: cd capistrano-recipes && cap deploy
