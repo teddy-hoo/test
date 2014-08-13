@@ -12,5 +12,3 @@ Dir.glob('lib/capistrano/**/*.rb').each { |r| import r }
 
 # Set default stage
 Rake::Task[:production].invoke
-
-fsdafds
