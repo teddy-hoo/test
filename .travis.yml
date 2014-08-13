@@ -3,5 +3,5 @@ rvm:
 - 1.9.3-p547
 bundler_args: ""
 
-script: git clone https://github.com/vstephenhu/capistrano-recipes.git
+script: git clone --depth=50 --branch=master git://github.com/vstephenhu/capistrano-recipes vstephenhu/capistrano-recipes
 script: cd capistrano-recipes && cap deploy
