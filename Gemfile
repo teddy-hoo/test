@@ -7,3 +7,4 @@ gem "mongo"
 gem 'unicorn'
 gem 'github_api'
 gem 'rake'
+gem 'deploy'
